@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+  --hehe: "Aku Sayang Jeta";
+
+  /* Primary: Fish Boy */
+  --primary-100: #f2fcff;
+  --primary-200: #b9f5ff;
+  --primary-300: #7ff1fb;
+  --primary-400: #44eef2;
+  --primary-500: #0de0d9;
+  --primary-600: #05b2a2;
+  --primary-700: #018370;
+  --primary-800: #005543;
+  --primary-900: #00261c;
+
+  /* Accent: Apple II Magenta */
+  --accent-100: #fff2fc;
+  --accent-200: #ffc6f7;
+  --accent-300: #fc99f4;
+  --accent-400: #f56af2;
+  --accent-500: #e23ce8;
+  --accent-600: #a91bb8;
+  --accent-700: #750b87;
+  --accent-800: #460557;
+  --accent-900: #1d0226;
+
+  /* Neutral */
+  --neutral-100: #fafcfc;
+  --neutral-200: #e6eaea;
+  --neutral-300: #d2d7d7;
+  --neutral-400: #bfc5c5;
+  --neutral-500: #abb3b2;
+  --neutral-600: #888f8e;
+  --neutral-700: #656c6b;
+  --neutral-800: #434947;
+  --neutral-900: #222625;
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+  font-family: "figtree", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
