@@ -12,14 +12,20 @@ const Styler = () => {
       "bd-bottom": ["borderBottom"],
     });
     makeStyles({
+      // Body Style
       body: "bg-[neutral-100] tc-[neutral-900]",
+      // Utility classes you can use
       ".w-full,.w-mx": "w-100%",
       ".h-full,.h-mx": "h-100%",
+      ".text-center": "ta-center",
       ".flex": "dis-flex",
       ".fx-ctr,.flex-center": "dis-flex flex-parent-center",
       ".fd-col": "fd-column",
-      ".form-wrapper form input":
-        "p-15px bdr-none bd-bottom-[input__border] w-250px",
+      ".space-b": "jc-[sb]",
+      // Position
+      ".fixed": "post-fixed",
+      ".relative": "post-relative",
+      ".absolute": "post-absolute",
     });
 
     moreColor();
