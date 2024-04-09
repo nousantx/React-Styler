@@ -1,9 +1,9 @@
-import { useEffect } from "react";
+import { useLayoutEffect } from "react";
 import { Link } from "react-router-dom";
 import tenoxui, { makeStyles } from "tenoxui";
 
 const Navbar = () => {
-  useEffect(() => {
+  useLayoutEffect(() => {
     // Style without calling `Styler()`
     const NavbarStyles = {
       nav: "ph-2em pv-1em post-fixed t-0 w-100% display-flex ai-center jc-[sb] bg-[neutral-100] z-999",

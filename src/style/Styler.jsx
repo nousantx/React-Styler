@@ -1,8 +1,8 @@
-import { useEffect } from "react";
+import { useLayoutEffect } from "react";
 import tenoxui, { defineProps, makeStyles, moreColor } from "tenoxui";
 
 const Styler = () => {
-  useEffect(() => {
+  useLayoutEffect(() => {
     defineProps({
       dis: ["display"],
       bdr: ["border"],
